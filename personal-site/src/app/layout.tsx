@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-blue-1200 text-white">
+      <body className="bg-gray-900 text-white">
 
         {/* Header will go here later */}
         {children}
