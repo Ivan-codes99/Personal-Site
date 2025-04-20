@@ -11,3 +11,4 @@ export default function Home() {
     </>
   );
 }
+//npx tailwindcss -i ./src/styles/globals.css -o ./src/styles/output.css --watch
