@@ -29,7 +29,7 @@ const projects = [
   {
     title: "CookEasy",
     description: `Mobile cooking app that suggests meals 
-                  based on your ingredients that you already have at home
+                  based on your ingredients that you already have at home.
                   The app features personalized profiles, ingredient tracking, and smart recipe suggestions`,
     media: [
       "/assets/CookEasy-1.png",

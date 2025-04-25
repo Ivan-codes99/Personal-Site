@@ -6,7 +6,7 @@ import { RxDoubleArrowLeft, RxDoubleArrowRight } from "react-icons/rx";
 
 export default function ProjectsSection() {
     return (
-      <section className="mt-50">
+      <section className="mt-25">
         {projects.map((proj, i) => (
           <ProjectSlide key={i} {...proj} />
         ))}

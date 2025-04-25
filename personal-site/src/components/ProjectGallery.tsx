@@ -3,9 +3,10 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 interface ProjectGalleryProps {
   media: string[];
+  type: string;
 }
 
-export default function ProjectGallery({ media }: ProjectGalleryProps) {
+export default function ProjectGallery({ media, type }: ProjectGalleryProps) {
   const [current, setCurrent] = useState(0);
 
   const prevImage = () => {
@@ -16,17 +17,18 @@ export default function ProjectGallery({ media }: ProjectGalleryProps) {
     setCurrent((prev) => (prev === media.length - 1 ? 0 : prev + 1));
   };
 
+  const imageSize = type === "web" ? "w-300 h-200" : "w-100 h-150";
+
   return (
     <div className="flex items-center justify-center gap-4">
       <button
         onClick={prevImage}
         className="bg-black/50 p-2 rounded-full hover:bg-black transition"
       >
-        <FaChevronLeft className="w-5 h-5 text-white" />
+        <FaChevronLeft className="w-7 h-7 text-white" />
       </button>
   
-      <div className="w-100 h-100">
-        {/* Set a fixed width and height for the image */}
+      <div className={`${imageSize}`}>
         <img
           src={media[current]}
           className="w-full h-full object-contain rounded-xl shadow-lg"
@@ -38,7 +40,7 @@ export default function ProjectGallery({ media }: ProjectGalleryProps) {
         onClick={nextImage}
         className="bg-black/50 p-2 rounded-full hover:bg-black transition"
       >
-        <FaChevronRight className="w-5 h-5 text-white" />
+        <FaChevronRight className="w-7 h-7 text-white" />
       </button>
     </div>
   );

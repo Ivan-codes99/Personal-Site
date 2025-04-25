@@ -7,6 +7,7 @@ interface ProjectSlideProps {
   tech: string[];
   codeLink?: string;
   media: string[];
+  type: string;
 }
 
 export default function ProjectSlide({
@@ -15,13 +16,14 @@ export default function ProjectSlide({
   tech,
   codeLink,
   media,
+  type
 }: ProjectSlideProps) {
   return (
-    <div className="flex py-15 pl-50 rounded-xl shadow-lg">
+    <div className="flex mb-25 ml-15 items-center gap-10">
       <div>
-        <ProjectGallery media={media} />
+        <ProjectGallery media={media} type={type} />
       </div>
-      <div className = "flex items-center">
+      <div>
         <ProjectDetails
           title={title}
           description={description}

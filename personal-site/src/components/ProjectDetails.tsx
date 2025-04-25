@@ -14,8 +14,8 @@ interface ProjectDetailsProps {
     codeLink
   }: ProjectDetailsProps) {
     return (
-        <div className = "flex flex-col px-10">
-            <div className = "flex items-center gap-6">
+        <div className = "flex flex-col">
+            <div className = "flex gap-6">
               <h1 className = "text-2xl font-bold">
                 {title}
               </h1>
@@ -40,8 +40,6 @@ interface ProjectDetailsProps {
               ))}
 
             </div>
-            
-
         </div>
     )
 
