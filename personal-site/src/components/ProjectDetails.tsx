@@ -30,7 +30,7 @@ interface ProjectDetailsProps {
 
             </div>
 
-            <p className = "text-gray-300 mt-5 pr-50">
+            <p className = "text-gray-300 mt-5 max-w-xl">
                 {description}
             </p>
 

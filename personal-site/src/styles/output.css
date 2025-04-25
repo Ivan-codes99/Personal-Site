@@ -16,6 +16,8 @@
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-xl: 36rem;
+    --container-2xl: 42rem;
+    --container-3xl: 48rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-xl: 1.25rem;
@@ -204,12 +206,6 @@
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
   }
-  .mr-50 {
-    margin-right: calc(var(--spacing) * 50);
-  }
-  .mb-10 {
-    margin-bottom: calc(var(--spacing) * 10);
-  }
   .mb-25 {
     margin-bottom: calc(var(--spacing) * 25);
   }
@@ -219,32 +215,17 @@
   .flex {
     display: flex;
   }
-  .h-5 {
-    height: calc(var(--spacing) * 5);
-  }
   .h-6 {
     height: calc(var(--spacing) * 6);
   }
   .h-7 {
     height: calc(var(--spacing) * 7);
   }
-  .h-10 {
-    height: calc(var(--spacing) * 10);
-  }
-  .h-100 {
-    height: calc(var(--spacing) * 100);
-  }
   .h-150 {
     height: calc(var(--spacing) * 150);
   }
-  .h-175 {
-    height: calc(var(--spacing) * 175);
-  }
   .h-200 {
     height: calc(var(--spacing) * 200);
-  }
-  .h-300 {
-    height: calc(var(--spacing) * 300);
   }
   .h-auto {
     height: auto;
@@ -255,35 +236,26 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-5 {
-    width: calc(var(--spacing) * 5);
-  }
   .w-6 {
     width: calc(var(--spacing) * 6);
   }
   .w-7 {
     width: calc(var(--spacing) * 7);
   }
-  .w-10 {
-    width: calc(var(--spacing) * 10);
-  }
   .w-100 {
     width: calc(var(--spacing) * 100);
-  }
-  .w-150 {
-    width: calc(var(--spacing) * 150);
-  }
-  .w-175 {
-    width: calc(var(--spacing) * 175);
-  }
-  .w-200 {
-    width: calc(var(--spacing) * 200);
   }
   .w-300 {
     width: calc(var(--spacing) * 300);
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-2xl {
+    max-width: var(--container-2xl);
+  }
+  .max-w-3xl {
+    max-width: var(--container-3xl);
   }
   .max-w-xl {
     max-width: var(--container-xl);
@@ -308,9 +280,6 @@
   }
   .justify-start {
     justify-content: flex-start;
-  }
-  .justify-items-center {
-    justify-items: center;
   }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
@@ -360,9 +329,6 @@
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
-  .px-10 {
-    padding-inline: calc(var(--spacing) * 10);
-  }
   .px-50 {
     padding-inline: calc(var(--spacing) * 50);
   }
@@ -377,15 +343,6 @@
   }
   .pr-50 {
     padding-right: calc(var(--spacing) * 50);
-  }
-  .pb-10 {
-    padding-bottom: calc(var(--spacing) * 10);
-  }
-  .pl-10 {
-    padding-left: calc(var(--spacing) * 10);
-  }
-  .pl-25 {
-    padding-left: calc(var(--spacing) * 25);
   }
   .pl-50 {
     padding-left: calc(var(--spacing) * 50);

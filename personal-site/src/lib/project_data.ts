@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "CreatorsFIU",
-    description: "A virtual marketplace designed exclusively for the FIU community",
+    description: "A virtual marketplace for the FIU community. As part of the INIT Build web dev team, I built responsive UI components with HTML, CSS, JavaScript, Tailwind CSS, and React, and worked in Figma to match the final design to our wireframes.",
     media: [
       "/assets/Creators-fiu1.png",
       "/assets/Creators-fiu2.png",
@@ -15,22 +15,8 @@ const projects = [
     type: "web", // Added type property
   },
   {
-    title: "This site",
-    description: "personal website",
-    media: [
-      "/assets/CookEasy-1.png",
-      "/assets/CookEasy-2.png",
-      "/assets/CookEasy-3.png",
-    ],
-    tech: ["HTML + CSS", "TypeScript", "Tailwind", "React", "Figma"],
-    codeLink: "https://github.com/Ivan-codes99/Personal-Site",
-    type: "mobile", // Added type property
-  },
-  {
     title: "CookEasy",
-    description: `Mobile cooking app that suggests meals 
-                  based on your ingredients that you already have at home.
-                  The app features personalized profiles, ingredient tracking, and smart recipe suggestions`,
+    description: `A smart cooking app that suggests meals based on ingredients you already have. I built and tested backend APIs using Node.js, Express, and MongoDB, integrating the OpenAI API for recipe suggestions and supporting user profiles. On the frontend, I used React Native with Expo to deliver a smooth mobile experience, and Postman to test and debug API functionality.`,
     media: [
       "/assets/CookEasy-1.png",
       "/assets/CookEasy-2.png",
