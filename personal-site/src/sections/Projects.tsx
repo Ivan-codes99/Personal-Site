@@ -1,14 +1,15 @@
 "use client";
-import { RxDoubleArrowLeft, RxDoubleArrowRight } from "react-icons/rx";
-//import ProjectCard from "@/components/ProjectCard";
-import projects from "@/lib/project_data";
 
-export default function Projects() {
+import projects from "../lib/project_data";
+import ProjectSlide from "@/components/ProjectSlide";
+import { RxDoubleArrowLeft, RxDoubleArrowRight } from "react-icons/rx";
+
+export default function ProjectsSection() {
     return (
-    <section className  = "mt-20 flex-col justify-center">
-        <h1 className = "text-center text-3xl sm:text-5xl font-medium">
-            Projects
-        </h1>
-    </section>
+      <section className="mt-50">
+        {projects.map((proj, i) => (
+          <ProjectSlide key={i} {...proj} />
+        ))}
+      </section>
     );
-}
+  }
