@@ -8,7 +8,7 @@ export default function AboutMe() {
                     <p>About me</p>
                 </h1>
                 <p className = "pt-5 tracking-widest">
-                I love building responsive, user-friendly interfaces with HTML, CSS, JavaScript, and TypeScript. I mostly work with React, React Native, Next.js, and Tailwind CSS to create clean layouts that work well on both web and mobile. I’m always learning new design patterns and leveling up my frontend skills through hands-on projects.
+                I love building responsive, user-friendly interfaces with HTML, CSS, JavaScript, and TypeScript. I mostly work with React, React Native, Next.js, and Tailwind CSS to create clean layouts that work well. I’m always learning new design patterns and leveling up my frontend skills through hands-on projects.
 
                 </p>
                 <p className = "tracking-widest">

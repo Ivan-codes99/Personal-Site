@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "CreatorsFIU",
-    description: "A virtual marketplace for the FIU community. As part of the INIT Build web dev team, I built responsive UI components with HTML, CSS, JavaScript, Tailwind CSS, and React, and worked in Figma to match the final design to our wireframes.",
+    description: "A virtual marketplace for the FIU community. As part of the INIT Build web dev team, I built UI components with JavaScript, Tailwind CSS, and React, and worked in Figma to match the final design to our wireframes.",
     media: [
       "/assets/Creators-fiu1.png",
       "/assets/Creators-fiu2.png",
