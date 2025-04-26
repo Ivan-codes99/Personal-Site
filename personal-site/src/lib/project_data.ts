@@ -24,7 +24,7 @@ const projects = [
     ],
     tech: ["React Native", "Expo", "TypeScript", "JavaScript", "Node.js", "Express", "MongoDB", "OpenAI API", "Postman"],
     codeLink: "https://github.com/Ivan-codes99/cookeasy",
-    type: "mobile", // Added type property
+    type: "mobile", // Added type property/
   },
 ];
 
