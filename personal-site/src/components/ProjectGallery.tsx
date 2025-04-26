@@ -2,8 +2,8 @@ import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 interface ProjectGalleryProps {
-  media: string[];
-  type: string;
+  media: string[],
+  type: string
 }
 
 export default function ProjectGallery({ media, type }: ProjectGalleryProps) {
