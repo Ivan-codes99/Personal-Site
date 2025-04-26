@@ -2,7 +2,7 @@
 
 export default function AboutMe() {
     return (
-        <section className = "mt-20 px-50 flex gap-50">
+        <section className = "mx-50 my-10 flex gap-50">
             <div className = "justify-start flex flex-col flex-1">
                 <h1 className = "text-3xl sm:text-5xl font-medium">
                     <p>About me</p>
