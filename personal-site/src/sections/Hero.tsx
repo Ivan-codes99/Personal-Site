@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className = "pl-50 pt-20">
       <h1 className="text-4xl sm:text-6xl font-bold leading-tight">
-        Hi, I`&apos;`m <br/>Ivan Figueroa
+        Hi, I&apos;m <br/>Ivan Figueroa
       </h1>
       <p className="mt-4 text-xl sm:text-2xl max-w-xl">
         Full-Stack Software Developer
