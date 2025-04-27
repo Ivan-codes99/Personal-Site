@@ -28,7 +28,7 @@ export default function ProjectGallery({ media, type }: ProjectGalleryProps) {
         <FaChevronLeft className="w-7 h-7 text-white" />
       </button>
   
-      <div className={`${imageSize}`}>
+      <div className={`${imageSize} border-2 border-black rounded-xl` }>
         <img
           src={media[current]}
           className="w-full h-full object-contain rounded-xl shadow-lg"
