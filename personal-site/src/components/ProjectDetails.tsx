@@ -14,7 +14,8 @@ interface ProjectDetailsProps {
     codeLink
   }: ProjectDetailsProps) {
     return (
-        <div className = "flex flex-col">
+        <div className = "flex flex-col ">
+          <div  className = "bg-gray-800 rounded-lg p-5 shadow-lg">
             <div className = "flex gap-6">
               <h1 className = "text-3xl font-bold">
                 {title}
@@ -33,6 +34,7 @@ interface ProjectDetailsProps {
             <p className = "text-gray-300 mt-5 max-w-xl">
                 {description}
             </p>
+            </div>
 
             <div className = "flex flex-wrap gap-3 mt-5 max-w-xl">
               {tech.map((item, idx) => (
