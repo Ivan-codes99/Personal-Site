@@ -8,7 +8,7 @@ export default function AboutMe() {
                     <p>About me</p>
                 </h1>
                 <p className = "mt-5 tracking-widest text-xl text-gray-300">
-                    I&apos;m a full-stack developer who loves building clean, scalable solutions across the front end and back end. I’m passionate about creating intuitive user experiences, designing efficient systems, and continuously growing my skills as I pursue my Master&apos;s in Computer Science at FIU.
+                    I&apos;m a full-stack developer who loves building clean, scalable solutions across the front end and back end. I&apos;m passionate about creating intuitive user experiences, designing efficient systems, and continuously growing my skills as I pursue my Master&apos;s in Computer Science at FIU.
                 </p>
 
                 <p className = "mt-5 tracking-widest text-xl text-gray-300">
