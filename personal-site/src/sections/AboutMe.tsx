@@ -12,7 +12,7 @@ export default function AboutMe() {
                 </p>
 
                 <p className = "mt-5 tracking-widest text-xl text-gray-300">
-                    Techs I've been working with recently:
+                    Techs I&apos;ve been working with recently:
                 </p>
 
                 <div className = "flex flex-wrap gap-3 mt-5 max-w-xl">
