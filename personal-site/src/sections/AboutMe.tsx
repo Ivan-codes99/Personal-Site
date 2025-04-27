@@ -8,7 +8,7 @@ export default function AboutMe() {
                     <p>About me</p>
                 </h1>
                 <p className = "pt-5 tracking-widest">
-                I'm a full-stack software developer with a passion for building clean, scalable solutions across the entire tech stack. I love designing intuitive user experiences on the front end and architecting robust, efficient systems on the back end. Whether I’m crafting responsive interfaces or developing server-side logic, I’m driven by a love for problem-solving and creating meaningful digital experiences.
+                I&apos;m a full-stack software developer with a passion for building clean, scalable solutions across the entire tech stack. I love designing intuitive user experiences on the front end and architecting robust, efficient systems on the back end. Whether I’m crafting responsive interfaces or developing server-side logic, I’m driven by a love for problem-solving and creating meaningful digital experiences.
 
                 </p>
             </div>
