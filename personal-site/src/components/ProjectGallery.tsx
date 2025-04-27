@@ -17,7 +17,6 @@ export default function ProjectGallery({ media, type }: ProjectGalleryProps) {
     setCurrent((prev) => (prev === media.length - 1 ? 0 : prev + 1));
   };
 
-  const aspectClass = type === "web" ? "aspect-[16/9]" : "aspect-[9/16]";
   const maxSizeClass = type === "web" ? "max-w-[1000px] max-h-[750px]" : "max-w-[300px] max-h-[500px]";
 
   return (
