@@ -16,7 +16,7 @@ interface ProjectDetailsProps {
     return (
         <div className = "flex flex-col">
             <div className = "flex gap-6">
-              <h1 className = "text-2xl font-bold">
+              <h1 className = "text-3xl font-bold">
                 {title}
               </h1>
             
