@@ -4,15 +4,15 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className = "pl-50 pt-20">
-      <h1 className="text-4xl sm:text-6xl font-bold leading-tight">
-        Hi, I`&apos;`m <br/>Ivan Figueroa
+    <section className = "mx-50 my-20">
+      <h1 className="text-4xl sm:text-7xl font-bold leading-tight">
+        Hi, I&apos;m <br/>Ivan Figueroa
       </h1>
-      <p className="mt-4 text-xl sm:text-2xl max-w-xl">
+      <p className="mt-4 text-xl sm:text-4xl max-w-xl">
         Full-Stack Software Developer
       </p>
       {/* Social icons */}
-      <div className="mt-6 flex gap-6 text-4xl">
+      <div className="mt-6 flex gap-6 text-6xl">
         <a
           href="https://github.com/Ivan-codes99"
           target="_blank"

@@ -1,4 +1,3 @@
-// src/app/layout.tsx
 import type { Metadata } from "next";
 import "@/styles/output.css";
 
@@ -16,7 +15,9 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-gray-900 text-white">
         {/* Header will go here later */}
-        {children}
+        <main>
+          {children}
+        </main>
         {/* Footer will go here later */}
       </body>
     </html>

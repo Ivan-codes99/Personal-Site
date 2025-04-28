@@ -5,8 +5,8 @@ import ProjectSlide from "@/components/ProjectSlide";
 
 export default function ProjectsSection() {
     return (
-      <section className="mt-25 flex-col">
-        <h1 className = "text-center text-3xl sm:text-5xl font-medium">
+      <section className="mt-25 flex-col mx-25">
+        <h1 className = "text-center text-3xl py-10 sm:text-5xl font-medium">
           <p>Projects</p>
         </h1>
         {projects.map((proj, i) => (
