@@ -20,7 +20,7 @@ export default function ProjectGallery({ media, type }: ProjectGalleryProps) {
   const maxSizeClass = type === "web" ? "max-w-[1000px] max-h-[750px]" : "max-w-[300px] max-h-[500px]";
 
   return (
-    <div className="flex items-center justify-center gap-4">
+    <div className="flex items-center justify-center gap-20">
       {/* Left Button */}
       <button
         onClick={prevImage}

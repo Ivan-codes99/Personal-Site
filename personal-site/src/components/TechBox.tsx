@@ -7,7 +7,7 @@ interface TechBoxProps {
 
 export default function TechBox({ label }: TechBoxProps) {
   return (
-    <div className=" bg-slate-800 rounded-sm text-center px-4 py-1 text-emerald-300 font-semibold text-sm shadow-md">
+    <div className=" bg-slate-800 rounded-sm text-center px-4 py-1 text-emerald-300 font-semibold text-shadow-md shadow-md">
       {label}
     </div>
   );

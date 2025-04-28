@@ -15,7 +15,7 @@ interface ProjectDetailsProps {
   }: ProjectDetailsProps) {
     return (
         <div className = "flex flex-col ">
-          <div  className = "bg-gray-800 rounded-lg p-5 shadow-lg">
+          <div  className = "bg-gray-800 rounded-lg p-5 shadow-lg max-w-lg">
             <div className = "flex gap-6">
               <h1 className = "text-3xl font-bold">
                 {title}
@@ -31,12 +31,12 @@ interface ProjectDetailsProps {
 
             </div>
 
-            <p className = "text-gray-300 mt-5 max-w-xl">
+            <p className = "text-gray-300 mt-5">
                 {description}
             </p>
             </div>
 
-            <div className = "flex flex-wrap gap-3 mt-5 max-w-xl">
+            <div className = "flex flex-wrap gap-3 mt-5 max-w-lg">
               {tech.map((item, idx) => (
                 <TechBox key={idx} label={item} />
               ))}
