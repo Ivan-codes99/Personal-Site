@@ -8,7 +8,7 @@ export default function AboutMe() {
                     <p>About me</p>
                 </h1>
                 <p className = "mt-5 tracking-widest text-xl text-gray-300">
-                Hello world! I'm a Full-stack developer experienced in building APIs, responsive web apps, and mobile solutions. Passionate about clean, reliable code and always eager to explore new technologies, including AI. Currently pursuing an M.S. in Computer Science at FIU.
+                Hello world! I&apos;m a Full-stack developer experienced in building APIs, responsive web apps, and mobile solutions. Passionate about clean, reliable code and always eager to explore new technologies, including AI. Currently pursuing an M.S. in Computer Science at FIU.
 
                 </p>
 
