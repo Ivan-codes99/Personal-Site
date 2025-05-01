@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import {Analytics} from '@vercel/analytics/next';
 import "@/styles/output.css";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({
         {/* Header will go here later */}
         <main>
           {children}
+          <Analytics />
         </main>
         {/* Footer will go here later */}
       </body>

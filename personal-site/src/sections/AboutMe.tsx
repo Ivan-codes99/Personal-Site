@@ -8,8 +8,7 @@ export default function AboutMe() {
                     <p>About me</p>
                 </h1>
                 <p className = "mt-5 tracking-widest text-xl text-gray-300">
-                I&apos;m a Full-Stack Software Developer with experience designing intuitive front-end interfaces and architecting robust, scalable back-end systems. Skilled in developing responsive web and mobile applications, crafting efficient APIs, and ensuring smooth user experiences. Passionate about building clean, reliable solutions and continuously growing technical skills while pursuing a Master&apos;s in Computer Science at Florida International University.
-
+                Hello world! I&apos;m a Full-stack developer experienced in building APIs, responsive web apps, and mobile solutions. Passionate about clean, reliable code and always eager to explore new technologies, including AI. Currently pursuing an M.S. in Computer Science at FIU.
 
                 </p>
 
@@ -20,17 +19,13 @@ export default function AboutMe() {
                 <div className = "flex flex-wrap gap-3 mt-5 max-w-xl">
                     <TechBox label="JavaScript"></TechBox>
                     <TechBox label="TypeScript"></TechBox>
-                    <TechBox label="Python"></TechBox>
-                    <TechBox label="Java"></TechBox>
                     <TechBox label="Node.js"></TechBox>
                     <TechBox label="Next.js"></TechBox>
                     <TechBox label="React & Native"></TechBox>
                     <TechBox label="Tailwind CSS"></TechBox>
                     <TechBox label="Express"></TechBox>
-                    <TechBox label="SQL"></TechBox>
                     <TechBox label="MongoDB"></TechBox>
                     <TechBox label="Firebase"></TechBox>
-                    
                 </div>
                 
                 
