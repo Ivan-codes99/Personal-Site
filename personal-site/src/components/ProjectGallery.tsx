@@ -33,12 +33,10 @@ export default function ProjectGallery({ media, type }: ProjectGalleryProps) {
       <div className={`flex items-center justify-center ${maxSizeClass}`}>
   <img
     src={media[current]}
-    className="max-w-full max-h-full object-contain rounded-xl border-2 border-emerald-500 shadow-lg"
+    className="max-w-full max-h-full object-contain rounded-xl border-4 border-gray-700 shadow-lg"
     alt={`Media ${current}`}
   />
 </div>
-
-
 
       {/* Right Button */}
       <button
