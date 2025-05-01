@@ -5,7 +5,7 @@ import Projects from "@/sections/Projects";
 import Experience from "@/sections/Experience";
 //TODO Add spotlight effect
 //TODO fix image sizing in projects section
-//TODO stylize more the techBox/tags
+//TODO stylize more the techBox/tags. Rename to skills. Stylize based on skill type
 //TODO Create header
 //TODO Create footer
 //TODO modify text content
