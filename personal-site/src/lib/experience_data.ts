@@ -16,9 +16,30 @@ const experience = [
       dateSort: new Date("2023-12-01"),
       description:
         "Served as a mentor for Break Through Tech Miami Winter Guild program, guiding a high school student team in designing and building a mobile app prototype for study group matching, all within a 5 day sprint.",
-      media: "/assets/Break_through_tech.png",
+      media: "/assets/Break_through_tech.jpg",
       tags: ["Mentorship", "Leadership", "Prototyping"],
+    },
+    {
+      title: "Python Instructor Volunteer",
+      organization: "Paul Bell middle school",
+      date: "Aug. 2023 - Dec. 2023",
+      dateSort: new Date("2023-12-01"),
+      description:
+        "Taught Python programming and computer science fundamentals to middle school students in a volunteer-led program. Focused on making coding fun and approachable through hands-on exercises, games, and live coding demos, helping students build confidence in logic and problem-solving.",
+      media: "/assets/paulbell.jpeg",
+      tags: ["Python", "Teaching", "Community impact", "Volunteering"],
     }, 
+    
+    {
+      title: "Hackathon Participant",
+      organization: "Shellhacks 2023",
+      date: "Sep. 2023",
+      dateSort: new Date("2023-09-15"),
+      description:
+        "Teamed up with fellow students to explore a Spotify dataset, where we built a music popularity prediction model and created visualizations using Python and machine learning libraries. As first-time hackathon participants, we learned on the fly, tackled data cleaning challenges, and gained hands-on experience with collaborative problem solving.",
+      media: "/assets/shellhacks_2023.jpg",
+      tags: ["Python", "Pandas", "Scikit-learn", "Data Visualization"],
+    },
     {
       title: "IT Intern",
       organization: "Memorial Healthcare System",
@@ -29,5 +50,7 @@ const experience = [
       media: "/assets/mhs.jpg",
       tags: ["Python", "CSV parsing", "Automation", "Scripting"],
     },
+    
   ];
   
+  export default experience;

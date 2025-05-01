@@ -15,7 +15,7 @@ interface ProjectDetailsProps {
   }: ProjectDetailsProps) {
     return (
         <div className = "flex flex-col ">
-          <div  className = "bg-gray-800 rounded-lg p-5 shadow-lg max-w-lg">
+          <div  className = " rounded-lg max-w-lg">
             <div className = "flex gap-6">
               <h1 className = "text-3xl font-bold">
                 {title}
