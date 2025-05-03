@@ -1,5 +1,5 @@
-import ProjectGallery from "@/components/ProjectGallery";
-import ProjectDetails from "@/components/ProjectDetails";
+import ProjectGallery from "@/components/Project/ProjectGallery";
+import ProjectDetails from "@/components/Project/ProjectDetails";
 
 interface ProjectSlideProps {
   title: string;

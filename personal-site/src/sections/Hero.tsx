@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className = "mx-50 my-20">
+    <section id = "about" className = "mx-20 my-15">
       <h1 className="text-4xl sm:text-7xl font-bold leading-tight">
         Ivan Figueroa
       </h1>

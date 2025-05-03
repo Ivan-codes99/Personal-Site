@@ -18,8 +18,8 @@ interface ExperienceCardProps {
         media
   }: ExperienceCardProps) {
     return (
-      <div className = "flex mb-25 mx-25 justify-between ">
-        <div className = "flex flex-col p-2 ">
+      <div className = "flex mb-25 justify-between ">
+        <div className = "flex flex-col p-2 rounded-2xl hover:bg-gray-800 transition-colors">
           <div className = "rounded-lg max-w-lg">
             <div className="flex justify-between">
               <h1 className="text-2xl font-bold">{title}</h1>
@@ -27,7 +27,7 @@ interface ExperienceCardProps {
             </div>
 
             <h1 className = "text-xl font-medium mt-1">{organization}</h1>
-            <p className = "text-gray-300 mt-3">
+            <p className = "text-gray-300 mt-5 text-base sm:text-lg leading-relaxed">
                 {description}
             </p>
 

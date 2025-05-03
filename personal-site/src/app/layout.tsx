@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {Analytics} from '@vercel/analytics/next';
 import "@/styles/output.css";
+import Sidebar from "@/components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Ivan Figueroa | Full-Stack Developer",
@@ -15,12 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-gray-900 text-white">
-        {/* Header will go here later */}
-        <main>
+        <Sidebar />
+        <main className="ml-36">
           {children}
-          <Analytics />
         </main>
-        {/* Footer will go here later */}
+        <Analytics /> 
       </body>
     </html>
   );

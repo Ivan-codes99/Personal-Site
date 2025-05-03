@@ -14,8 +14,8 @@ interface ProjectDetailsProps {
     codeLink
   }: ProjectDetailsProps) {
     return (
-        <div className = "flex flex-col ">
-          <div  className = " rounded-lg max-w-lg">
+        <div className = "flex flex-col rounded-2xl hover:bg-gray-800 transition-colors">
+          <div  className = "rounded-lg max-w-lg p-5">
             <div className = "flex gap-6">
               <h1 className = "text-3xl font-bold">
                 {title}
@@ -31,12 +31,12 @@ interface ProjectDetailsProps {
 
             </div>
 
-            <p className = "text-gray-300 mt-5">
-                {description}
+            <p className="text-gray-400 mt-5 text-base sm:text-lg leading-relaxed">
+              {description}
             </p>
             </div>
 
-            <div className = "flex flex-wrap gap-3 mt-5 max-w-lg">
+            <div className = "flex flex-wrap p-5 gap-3 mt-5 max-w-lg">
               {tech.map((item, idx) => (
                 <TechBox key={idx} label={item} />
               ))}
