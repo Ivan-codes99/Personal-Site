@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "CreatorsFIU",
-    description: "Virtual marketplace built exclusively for the FIU community, offering a platform to buy, sell, and exchange goods and services. As part of the INIT Build web development team, I contributed to designing and building user interface components and helped bring our wireframes to life with a focus on a smooth and visually consistent user experience.",
+    description: "CreatorsFIU is a student-built web marketplace for the FIU community. I contributed as a frontend developer, building reusable UI components with React and Tailwind CSS, and translating Figma designs into production-ready pages.",
     media: [
       "/assets/Creators-fiu1.png",
       "/assets/Creators-fiu2.png",
@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: "RewardMe",
-    description: `Mobile app designed to strengthen student engagement at FIU and connect them with local businesses through a rewards platform. Users can track reward balances, explore campus events, and scan QR codes to verify participation. I contributed as a full-stack developer, leading backend development for user authentication, event management, and reward tracking.`,
+    description: `RewardMe is a mobile rewards app prototype designed to strengthen student engagement at FIU. I contributed as a full-stack developer, implementing secure authentication, building RESTful APIs, and developing interactive mobile screens with React Native.`,
     media: [
       "/assets/RewardMe-1.png",
       "/assets/RewardMe-2.png",
@@ -28,12 +28,12 @@ const projects = [
     type: "mobile", // Added type property/
   },
   {
-    title: "CookEasy",
-    description: `Smart cooking app designed to help users reduce food waste and simplify meal planning. It allows users to manage a virtual kitchen by tracking their ingredients and generates meal suggestions based on what they have available. Users can browse AI-powered recipe ideas, update their kitchen stock, and stay organized as they cook. I contributed to both the frontend and backend, helping build the core systems for ingredient management, recipe generation, and delivering a smooth, user-friendly experience.`,
+    title: "CookEasy API",
+    description: `CookEasy is a smart cooking app that generates AI-powered recipes using OpenAI. I contributed to both frontend and backend development, building ingredient tracking logic, RESTful APIs, and integrating Firebase Authentication.`,
     media: [
       "/assets/CookEasy-2.png",
     ],
-    tech: ["React Native", "Expo", "TypeScript", "JavaScript", "Node.js", "Express", "MongoDB", "OpenAI API", "Postman", "Figma"],
+    tech:  ["JavaScript", "Node.js", "Express", "MongoDB", "OpenAI API", "Postman"],
     codeLink: "https://github.com/Ivan-codes99/cookeasy",
     type: "mobile", // Added type property/
   },
