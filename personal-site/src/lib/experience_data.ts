@@ -5,7 +5,7 @@ const experience = [
       date: "Aug. 2024 - Dec. 2024",
       dateSort: new Date("2024-12-01"), // Use end date for sorting
       description:
-        "I mentored students on machine learning projects, helping them with Python debugging, data preprocessing, and applying techniques like regression and feature selection. I also coordinated technical tasks to support successful project outcomes.",
+        "Mentored 5 student teams on machine learning projects, assisting with Python debugging, data preprocessing, and applying techniques such as regression and feature selection. Coordinated technical tasks to support successful project completion.",
       media: "/assets/AI4ALL.jpg",
       tags: ["Python", "Machine learning", "Remote Coordination", "Project Management", "Leadership"],
     },
@@ -17,7 +17,7 @@ const experience = [
       description:
         "Served as a mentor for Break Through Tech Miami Winter Guild program, guiding a high school student team in designing and building a mobile app prototype for study group matching, all within a 5 day sprint.",
       media: "/assets/Break_through_tech.jpg",
-      tags: ["Mentorship", "Leadership", "Prototyping"],
+      tags: ["Mentorship", "Leadership", "Prototyping", "MIT App inventor"],
     },
     {
       title: "Python Instructor Volunteer",
@@ -25,7 +25,7 @@ const experience = [
       date: "Aug. 2023 - Dec. 2023",
       dateSort: new Date("2023-12-01"),
       description:
-        "Taught Python programming and computer science fundamentals to middle school students in a volunteer-led program. Focused on making coding fun and approachable through hands-on exercises, games, and live coding demos, helping students build confidence in logic and problem-solving.",
+        "Taught Python programming and computer science fundamentals to 10+ middle school students through a volunteer-led program. Delivered hands-on exercises, games, and live coding demos to make coding engaging and build confidence in logic and problem-solving.",
       media: "/assets/paulbell.jpeg",
       tags: ["Python", "Teaching", "Community impact", "Volunteering"],
     }, 
@@ -36,9 +36,9 @@ const experience = [
       date: "Sep. 2023",
       dateSort: new Date("2023-09-15"),
       description:
-        "Teamed up with fellow students to explore a Spotify dataset, where we built a music popularity prediction model and created visualizations using Python and machine learning libraries. As first-time hackathon participants, we learned on the fly, tackled data cleaning challenges, and gained hands-on experience with collaborative problem solving.",
+        "Collaborated with peers to analyze a Spotify dataset and develop a music popularity prediction model using Python and machine learning libraries. Gained hands-on experience with data cleaning, visualization, and teamwork during a first-time hackathon.",
       media: "/assets/shellhacks_2023.jpg",
-      tags: ["Python", "Pandas", "Scikit-learn", "Data Visualization"],
+      tags: ["Python", "Pandas", "Scikit-learn", "Matplotlib", "Data Visualization"],
     },
     {
       title: "IT Intern",

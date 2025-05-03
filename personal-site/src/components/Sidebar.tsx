@@ -14,7 +14,7 @@ export default function Sidebar() {
           }
         });
       },
-      { threshold: 0.2 } // Trigger when 60% of the section is visible
+      { threshold: 0.3 } // Trigger when 60% of the section is visible
     );
 
     const sections = document.querySelectorAll("section");

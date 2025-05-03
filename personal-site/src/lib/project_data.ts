@@ -28,10 +28,8 @@ const projects = [
     type: "mobile", // Added type property/
   },
   {
-    title: "CookEasy",
-    description: `CookEasy is a smart cooking app prototype that reduces food waste by generating AI-powered recipes using OpenAI. I contributed to both frontend and backend development, building ingredient tracking logic, RESTful APIs, and integrating Firebase Authentication.
-
-`,
+    title: "CookEasy API",
+    description: `CookEasy is a smart cooking app that generates AI-powered recipes using OpenAI. I contributed to both frontend and backend development, building ingredient tracking logic, RESTful APIs, and integrating Firebase Authentication.`,
     media: [
       "/assets/CookEasy-2.png",
     ],

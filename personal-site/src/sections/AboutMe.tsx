@@ -30,13 +30,12 @@ export default function AboutMe() {
                 
             </div>
             <div>
-                <a href = "https://maps.app.goo.gl/43xtfk18TwrdGsfr6?g_st=ac" target="_blank" rel="noopener noreferrer">
+  
                 <img
                 src = "/assets/me.jpg"
                 className = "rounded-[100px]"
                 alt = "Picture of me in Yellowstone"/>
                 
-                </a>
             </div>
         </section>
     );
