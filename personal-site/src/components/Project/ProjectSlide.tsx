@@ -16,13 +16,13 @@ export default function ProjectSlide({
   tech,
   codeLink,
   media,
-  type
+  
 }: ProjectSlideProps) {
   return (
     
-    <div className="flex mb-25 items-center gap-10">
+    <div className="flex items-center my-30 mx-5 gap-2">
       <div>
-        <ProjectGallery media={media} type={type} />
+        <ProjectGallery media={media} />
       </div>
       <div>
         <ProjectDetails
