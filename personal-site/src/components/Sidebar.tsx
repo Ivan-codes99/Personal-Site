@@ -24,7 +24,7 @@ export default function Sidebar() {
   }, []);
 
   return (
-    <aside className="bg-slate-800 fixed top-0 left-0 h-full w-36 z-50 font-poppins shadow-lg">
+    <aside className="bg-slate-800 fixed top-0 left-0 h-full w-32 z-50 font-poppins shadow-lg">
       <nav className="flex flex-col items-start px-6 py-8 text-lg">
         
 
@@ -33,10 +33,10 @@ export default function Sidebar() {
           <a
             href="#about"
             className={`${
-              activeSection === "about" ? "text-blue-400 font-bold  text-xl" : "text-gray-300"
+              activeSection === "about" ? "text-blue-400 font-bold text-xl" : "text-gray-300"
             } hover:text-blue-400 transition-colors`}
           >
-            About Me
+            About
           </a>
           <a
             href="#projects"
@@ -49,7 +49,7 @@ export default function Sidebar() {
           <a
             href="#experience"
             className={`${
-              activeSection === "experience" ? "text-blue-400 font-bold  text-xl" : "text-gray-300"
+              activeSection === "experience" ? "text-blue-400 font-bold text-xl" : "text-gray-300"
             } hover:text-blue-400 transition-colors`}
           >
             Experience
