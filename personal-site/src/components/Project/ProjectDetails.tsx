@@ -36,7 +36,7 @@ interface ProjectDetailsProps {
             </p>
             </div>
 
-            <div className = "flex flex-wrap p-5 gap-3 mt-5 max-w-lg">
+            <div className = "flex flex-wrap px-5 gap-3 max-w-lg">
               {tech.map((item, idx) => (
                 <TechBox key={idx} label={item} />
               ))}

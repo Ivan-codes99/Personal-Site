@@ -20,7 +20,7 @@ export default function ProjectSlide({
 }: ProjectSlideProps) {
   return (
     
-    <div className="flex items-center my-30 mx-5 gap-2">
+    <div className="flex items-center justify-around my-50 gap-0">
       <div>
         <ProjectGallery media={media} />
       </div>
