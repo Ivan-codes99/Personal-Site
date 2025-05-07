@@ -31,7 +31,10 @@ const projects = [
     title: "CookEasy API",
     description: `CookEasy is a smart cooking app that generates AI-powered recipes using OpenAI. I contributed to both frontend and backend development, building ingredient tracking logic, RESTful APIs, and integrating Firebase Authentication.`,
     media: [
-      "/assets/CookEasy-2.png",
+      "/assets/CookEasy-1.jpg",
+      "/assets/CookEasy-2.jpg",
+      "/assets/CookEasy-3.jpg",
+      "/assets/placeholder.png",
     ],
     tech:  ["JavaScript", "Node.js", "Express", "MongoDB", "OpenAI API", "Postman"],
     codeLink: "https://github.com/Ivan-codes99/cookeasy",
