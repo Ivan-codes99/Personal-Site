@@ -8,7 +8,7 @@ export default function AboutMe() {
                     <p>About me</p>
                 </h1>
                 <p className = "mt-5 tracking-widest text-xl text-gray-300">
-                Hello! I&apos;m a Computer Science grad student at FIU building full-stack web and mobile apps. I enjoy developing responsive interfaces and scalable APIs, and I&apos;m passionate about writing clean, reliable code. I&apos;m currently seeking a software engineering internship where I can learn from real world experience and contribute to impactful products.
+                Hello! I&apos;m a <strong>Computer Science</strong> grad student at <strong>FIU</strong> building full-stack web and mobile apps. I&apos;m currently working as a <strong>Full Stack Software Engineer Intern</strong> at <strong>Sports Excitement</strong>, where I contribute to web development as part of an <strong>Agile Scrum</strong> team. I enjoy developing responsive interfaces and scalable APIs, and I&apos;m passionate about writing clean, reliable code.
 
                 </p>
 
