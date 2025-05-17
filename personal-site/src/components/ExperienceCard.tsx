@@ -41,12 +41,13 @@ interface ExperienceCardProps {
             </div>
           </div>
 
-          
+          <div className="flex items-center">
             <img 
               src = {media}
               alt = ""
-              className = " max-w-[400px] max-h-[400px] rounded-xl border-4 border-gray-700 shadow-lg"
+              className = "w-[400px] max-w-[400px] h-auto object-contain rounded-xl border-4 border-gray-700 shadow-lg"
               />
+          </div>
         </div>
     )
 
