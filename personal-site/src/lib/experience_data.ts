@@ -1,5 +1,15 @@
 const experience = [
     {
+      title: "Full Stack Software Engineer Intern",
+      organization: "Sports Excitement",
+      date: "May. 2025 - Present",
+      dateSort: new Date("2025-05-01"), // Use start date for sorting since it's current
+      description:
+        "Contributing to the development of a global sports community platform, working on both front-end and back-end features. Collaborating with the team to implement innovative solutions using React.js, MongoDB, and modern web technologies in an Agile Scrum environment.",
+      media: "/assets/sportsexcitment.jpeg",
+      tags: ["React.js", "MongoDB", "JavaScript", "CSS", "Agile Scrum", "Full Stack Development"],
+    },
+    {
       title: "Project Coordinator",
       organization: "AI4ALL",
       date: "Aug. 2024 - Dec. 2024",
